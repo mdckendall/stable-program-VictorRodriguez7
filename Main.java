@@ -43,7 +43,7 @@ public class Main {
         }
 
         for(int i = 0; i < stable.horseArrayList.size(); i++){
-            System.out.println("Horse # " + (i+1) + " Name: "
+            System.out.println("Horse #" + (i+1) + " Name: "
                     + stable.horseArrayList.get(i).name + " Weight: "
                     + stable.horseArrayList.get(i).weight + " Tame: "
                     + stable.horseArrayList.get(i).isTame);
